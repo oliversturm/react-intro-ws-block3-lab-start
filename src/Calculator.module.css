@@ -1,0 +1,8 @@
+.outer {
+  width: 400px;
+}
+.keys {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}

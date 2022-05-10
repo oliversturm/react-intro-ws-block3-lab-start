@@ -1,0 +1,31 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 1rem;
+  border: 1px solid gray;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+}
+.main {
+  display: grid;
+  align-items: center;
+  grid-template-columns: max-content auto;
+  width: 100%;
+}
+.stack {
+  font-size: 9pt;
+}
+.value0 {
+  font-size: 36pt;
+  text-align: right;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.footercell {
+  font-size: 10pt;
+}
