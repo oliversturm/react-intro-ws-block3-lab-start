@@ -23,7 +23,7 @@ const toBin = to('Bin', 2);
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'value0append':
+    case 'value0append': {
       const { value0: v0 } = state;
       const {
         payload: { once: o, char: c },
@@ -33,6 +33,7 @@ const reducer = (state, action) => {
         value0:
           o && v0.includes(c) ? v0 : `${v0 === placeholder ? '' : v0}${c}`,
       };
+    }
 
     case 'value0push':
       return {

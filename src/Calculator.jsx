@@ -45,4 +45,5 @@ const Calculator = () => {
   );
 };
 
-export default memo(Calculator);
+const CalculatorMemo = memo(Calculator);
+export default CalculatorMemo;

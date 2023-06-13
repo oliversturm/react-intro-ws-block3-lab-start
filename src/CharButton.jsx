@@ -19,4 +19,5 @@ const CharButton = ({ char, once = false }) => {
   );
 };
 
-export default memo(CharButton);
+const CharButtonMemo = memo(CharButton);
+export default CharButtonMemo;

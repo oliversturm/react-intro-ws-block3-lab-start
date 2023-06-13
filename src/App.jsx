@@ -14,4 +14,5 @@ const App = () => {
   );
 };
 
-export default memo(App);
+const AppMemo = memo(App);
+export default AppMemo;

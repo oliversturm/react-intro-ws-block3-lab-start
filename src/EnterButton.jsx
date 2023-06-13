@@ -15,4 +15,5 @@ const EnterButton = () => {
   );
 };
 
-export default memo(EnterButton);
+const EnterButtonMemo = memo(EnterButton);
+export default EnterButtonMemo;
